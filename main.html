@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE HOUSE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+         <a href="/index.html" class="menu__logo">Coffe House</a>
+         <ul class="menu__ul">
+            <li class="menu__li">
+                <a href="#home" class="menu__link">Home</a>
+            </li>
+            <li class="menu__li">
+                <a href="#story" class="menu__link">Story</a>
+            </li>
+            <li class="menu__li">
+                <a href="#blog" class="menu__link">Blog</a>
+            </li>
+            <li class="menu__li">
+                <a href="#contact" class="menu__link">Subscribe</a>
+            </li>
+         </ul>   
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+            <h1 class="home__title">Take Your Time</h1>
+            <div class="home__line"></div>
+        </div>
+        <div id="story">
+            <h2 class="story__title">Story</h2>
+            <div class="story__main">
+                <img src="https://source.unsplash.com/X4RJG4aNi8o/1920x1080" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis ultrices est, congue ullamcorper erat bibendum pulvinar. In accumsan dapibus accumsan. Maecenas semper est ut nunc feugiat, vel ultrices ligula commodo. Donec eget pulvinar nunc, eget pharetra risus.</p>
+            </div>
+        </div>
+        <div id="blog">
+            <h2 class="story__title">Blog</h2>
+            <div class="blog__main">
+                <div class="blog__card1 card">
+                    <h3 class="blog__card1__title">Daily Coffee News</h3>
+                    <img src="https://source.unsplash.com/CSQQ6_T0sks/1920x1080" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+                </div>
+                <div class="blog__card2 card">
+                    <h3 class="blog__card2__title">Dutch Coffee Chains</h3>
+                    <img src="https://source.unsplash.com/TYIzeCiZ_60/1920x1080" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+                </div>
+                <div class="blog__card3 card">
+                    <h3 class="blog__card3__title">Start Up In Minneapolis</h3>
+                    <img src="https://source.unsplash.com/9rTEwV_G0Do/1920x1080" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <form action="#"> <!-- Ссылка никуда не ведет, поэтому падает --> 
+                <label class="contact__title" for="email">Subscribe</label>
+                <input type="email" name="email" id="email" placeholder="enter your email">
+                <button onclick='location.href="#home"'>submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>© COPYRIGHT 2021</p>
+        </div>
+    </footer>
+</body>
+</html>
